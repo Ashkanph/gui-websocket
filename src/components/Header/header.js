@@ -20,7 +20,7 @@ class Header extends Component {
             <div>
                 <header className="header">
                     <span className="title" style={{ float: 'left', color: '#1F2931' }}>
-                        Websocket GUI command line
+                        GUI Websocket
                     </span>
                     <span   className = { 'theme-btn ' + themText } 
                             onClick={this.props.changeTheme}>
